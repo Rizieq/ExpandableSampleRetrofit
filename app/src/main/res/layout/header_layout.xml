@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/list_item_group_icon"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/profileDesc_Gray"
+        android:fontFamily="@font/feather"
+        android:text="\ue81e"/>
+
+    <TextView
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Group"
+        android:textColor="@color/profileName_Gray"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15dp"
+        android:gravity="center|left"
+        android:id="@+id/tvMovieCategory"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:paddingRight="10dp"
+        tools:text="@tools:sample/full_names"
+
+        />
+
+    <ImageView
+        android:id="@+id/ivMovieCategoryExpand"
+        android:layout_width="10dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_weight="0.1"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:src="@drawable/ic_arrow_down_navigate" />
+
+</LinearLayout>

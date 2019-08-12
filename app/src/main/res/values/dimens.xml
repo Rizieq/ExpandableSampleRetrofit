@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_height">42dp</dimen>
+    <dimen name="list_source_height">70dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="list_item_left_margin">72dp</dimen>
+    <dimen name="button_white_round">15dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+</resources>
